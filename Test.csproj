@@ -1,5 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+	</PropertyGroup>
 	<ItemGroup>
+		<PackageReference Include="Google.Apis.Sheets.v4" Version="1.68.0.3658" />
 		<PackageReference Include="MassTransit" Version="8.3.1-develop.2084" />
 	</ItemGroup>
 </Project>
