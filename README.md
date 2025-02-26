@@ -1,17 +1,13 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 34469
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate does not open a PR to update the MassTransit dependency to a newer version.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate should open a PR to update the MassTransit dependency to any later version.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/34469
